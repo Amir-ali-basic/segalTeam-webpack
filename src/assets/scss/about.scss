@@ -1,0 +1,44 @@
+.about {
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 200px;
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    .about-headline {
+      h1 {
+        font-weight: 800;
+        font-size: 3.75rem;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #181818;
+        margin-top: 0;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #181818;
+        margin-top: 16px;
+      }
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+/*MID IMAGE*/
+.mid-image {
+  max-width: 880px;
+  position: absolute;
+  bottom: -205px;
+  right: 0;
+}
+.mid-image img {
+  width: 100%;
+}
